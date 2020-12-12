@@ -13,7 +13,7 @@ var app = new Vue({
             if (value) {
                 finalValue += 3000
                 if (value > 1) {
-                    finalValue += (value - 1) * 200
+                    finalValue += (value - 1) * 300
                 }
                 return finalValue
             } else { return 'ingrese distancia' }
